@@ -1,0 +1,10 @@
+ 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
+
+
+
+ --steps . pushing to git after redeployement
+ git add .
+ git commit -m "type commit message"
+ git push -u origin main
+ user name name:
+ password: i.e (your git hub token:)
