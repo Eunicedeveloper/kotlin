@@ -9,3 +9,5 @@ fun main(args: Array<String>) {
         print("sorry:you are still young")
     }
 }
+
+//basics of if statements

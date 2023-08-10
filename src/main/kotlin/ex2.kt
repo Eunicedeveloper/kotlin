@@ -1,24 +1,13 @@
-fun main(args: Array<String>) {
-    //simple score system kotlin
-    println("Enter your marks")
-    var marks:Int = readLine()!!.toInt()
+import java.util.Calendar
 
-    if ( marks in 10..29){
-        print(" Score: E")
-    }
-    else if (marks in 30..39){
-        print("Score: D")
-    }
-    else if (marks in 40..59){
-        print("Score: B")
-    }
-    else if (marks in 60..70){
-        print("Score: B+")
-    }
-    else if (marks in 71..100){
-        print("Score: A")
-    }
-    else {
-        print("Out of range")
-    }
-  }
+fun main(args: Array<String>) {
+    print(" Enter birth year")
+    var birthyear:Int = readLine()!!.toInt()
+
+    var currentYear = Calendar.getInstance().get(Calendar.YEAR)
+    var age = currentYear - birthyear
+
+    println("you are $age years old")
+}
+
+//above is a simplekotlin code to execute your age once you input your birth year
