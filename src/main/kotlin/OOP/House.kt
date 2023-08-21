@@ -1,4 +1,4 @@
-package OOP
+package OOP.Inheritance
 
 class House (Agency:String, tolet: String, rent:Int){
     init {
