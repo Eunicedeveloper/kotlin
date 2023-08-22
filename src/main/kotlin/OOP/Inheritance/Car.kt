@@ -11,5 +11,3 @@ fun main(args: Array<String>) {
     var owner1 = Car("Toyota", "Vitz", 600000)
     var owner2 = Car("Nissan", "juk", 7500000)
 }
-
-
